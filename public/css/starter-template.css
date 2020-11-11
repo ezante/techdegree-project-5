@@ -1,0 +1,40 @@
+body {
+  padding-top: 100px;
+  background-color: #4d4d4d;
+}
+
+.navbar {
+  height: 70px;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8em;
+  color: hotpink;
+  border-right: 2px;
+  border-color: hotpink;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 1.2em;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+  color: hotpink;
+}
+
+.navbar .navbar-nav:last-child .nav-item .nav-link {
+  color: hotpink;
+}
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.page-footer a {
+  color: hotpink;
+}
+
+
